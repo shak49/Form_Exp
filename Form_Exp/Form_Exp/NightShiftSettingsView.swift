@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct NightShiftSettingsView: View {
     @State private var scheduled: Bool = false
     @State private var manuallyEnabledTillTomorrow: Bool = false
     @State private var colorTempreture: CGFloat = 0.5
@@ -49,13 +49,13 @@ struct ContentView: View {
                     }
                 }
             }
-            .listStyle(.plain)
+            .ignoresSafeArea(.all)
         }
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct NightShiftSettingsView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        NightShiftSettingsView()
     }
 }

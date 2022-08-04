@@ -8,17 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		6D4682FE289B5700007FB56D /* Form_ExpApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D4682FD289B5700007FB56D /* Form_ExpApp.swift */; };
-		6D468300289B5700007FB56D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D4682FF289B5700007FB56D /* ContentView.swift */; };
+		6D468300289B5700007FB56D /* NightShiftSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D4682FF289B5700007FB56D /* NightShiftSettingsView.swift */; };
 		6D468302289B5703007FB56D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D468301289B5703007FB56D /* Assets.xcassets */; };
 		6D468305289B5703007FB56D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D468304289B5703007FB56D /* Preview Assets.xcassets */; };
+		6D46830C289C09FA007FB56D /* NotificationSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D46830B289C09FA007FB56D /* NotificationSettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6D4682FA289B5700007FB56D /* Form_Exp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Form_Exp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D4682FD289B5700007FB56D /* Form_ExpApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Form_ExpApp.swift; sourceTree = "<group>"; };
-		6D4682FF289B5700007FB56D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6D4682FF289B5700007FB56D /* NightShiftSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NightShiftSettingsView.swift; sourceTree = "<group>"; };
 		6D468301289B5703007FB56D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6D468304289B5703007FB56D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6D46830B289C09FA007FB56D /* NotificationSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationSettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +54,8 @@
 			isa = PBXGroup;
 			children = (
 				6D4682FD289B5700007FB56D /* Form_ExpApp.swift */,
-				6D4682FF289B5700007FB56D /* ContentView.swift */,
+				6D46830B289C09FA007FB56D /* NotificationSettingsView.swift */,
+				6D4682FF289B5700007FB56D /* NightShiftSettingsView.swift */,
 				6D468301289B5703007FB56D /* Assets.xcassets */,
 				6D468303289B5703007FB56D /* Preview Content */,
 			);
@@ -137,7 +140,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6D468300289B5700007FB56D /* ContentView.swift in Sources */,
+				6D46830C289C09FA007FB56D /* NotificationSettingsView.swift in Sources */,
+				6D468300289B5700007FB56D /* NightShiftSettingsView.swift in Sources */,
 				6D4682FE289B5700007FB56D /* Form_ExpApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
