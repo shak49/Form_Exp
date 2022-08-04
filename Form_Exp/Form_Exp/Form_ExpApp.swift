@@ -11,7 +11,7 @@ import SwiftUI
 struct Form_ExpApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NightShiftSettingsView()
         }
     }
 }
